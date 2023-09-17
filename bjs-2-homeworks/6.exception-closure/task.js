@@ -1,8 +1,8 @@
 ﻿//       1-я задача
-function parseCount(parseNumber) {
-    let result = Number.parseFloat(parseNumber, "маша");
+function parseCount(parseCount) {
+    let result = Number.parseFloat(parseCount);
     myError = new Error("Невалидное значение");
-    if (Number.isNaN(Number.parseFloat(parseNumber))) {
+    if (Number.isNaN(Number.parseFloat(parseCount))) {
       throw myError;
     } else {
       return result;
