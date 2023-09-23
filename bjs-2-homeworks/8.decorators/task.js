@@ -1,4 +1,4 @@
-//Задача № 1
+//            Задача № 1
 function cachingDecoratorNew(func) {
     let cache = [];
 
@@ -24,7 +24,7 @@ function cachingDecoratorNew(func) {
     };
   }
 
-//Задача № 2
+//            Задача № 2
 function debounceDecoratorNew(func, delay) {
     let timeoutId = null;
     function wrapper(...args) {
